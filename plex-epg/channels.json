@@ -1,0 +1,1402 @@
+[
+  {
+    "order": 1,
+    "name": "BBC ONE FHD",
+    "group": "01 • UK TV",
+    "hint_id": "bbcone",
+    "logo": "https://logo.m3uassets.com/bbcone.png"
+  },
+  {
+    "order": 2,
+    "name": "BBC TWO FHD",
+    "group": "01 • UK TV",
+    "hint_id": "bbctwo",
+    "logo": "https://logo.m3uassets.com/bbctwo.png"
+  },
+  {
+    "order": 3,
+    "name": "ITV FHD",
+    "group": "01 • UK TV",
+    "hint_id": "srf1",
+    "logo": "https://logo.m3uassets.com/itv.png"
+  },
+  {
+    "order": 4,
+    "name": "CHANNEL 4 FHD",
+    "group": "01 • UK TV",
+    "hint_id": "4seven.uk",
+    "logo": "https://logo.m3uassets.com/channel4.png"
+  },
+  {
+    "order": 5,
+    "name": "CHANNEL 5 FHD",
+    "group": "01 • UK TV",
+    "hint_id": "4seven.uk",
+    "logo": "https://logo.m3uassets.com/channel5.png"
+  },
+  {
+    "order": 6,
+    "name": "BBC THREE FHD",
+    "group": "01 • UK TV",
+    "hint_id": "BBCThreeHD.uk",
+    "logo": "https://logo.m3uassets.com/bbcthree.png"
+  },
+  {
+    "order": 7,
+    "name": "BBC FOUR FHD",
+    "group": "01 • UK TV",
+    "hint_id": "BBCFourHD.uk",
+    "logo": "https://logo.m3uassets.com/bbcfour.png"
+  },
+  {
+    "order": 8,
+    "name": "ITV2 FHD",
+    "group": "01 • UK TV",
+    "hint_id": "itv2",
+    "logo": "https://logo.m3uassets.com/itv2.png"
+  },
+  {
+    "order": 9,
+    "name": "ITV3 FHD",
+    "group": "01 • UK TV",
+    "hint_id": "itv3",
+    "logo": "https://logo.m3uassets.com/itv3.png"
+  },
+  {
+    "order": 10,
+    "name": "ITV4 FHD",
+    "group": "01 • UK TV",
+    "hint_id": "itv4",
+    "logo": "https://logo.m3uassets.com/itv4.png"
+  },
+  {
+    "order": 11,
+    "name": "ITVBE FHD",
+    "group": "01 • UK TV",
+    "hint_id": "itvbe",
+    "logo": "https://logo.m3uassets.com/itvbe.png"
+  },
+  {
+    "order": 12,
+    "name": "E4 FHD",
+    "group": "01 • UK TV",
+    "hint_id": "e4",
+    "logo": "https://logo.m3uassets.com/e4.png"
+  },
+  {
+    "order": 13,
+    "name": "MORE4 FHD",
+    "group": "01 • UK TV",
+    "hint_id": "more4",
+    "logo": "https://logo.m3uassets.com/more4.png"
+  },
+  {
+    "order": 14,
+    "name": "4SEVEN SD",
+    "group": "01 • UK TV",
+    "hint_id": "4seven.uk",
+    "logo": "https://logo.m3uassets.com/4seven.png"
+  },
+  {
+    "order": 15,
+    "name": "5STAR SD",
+    "group": "01 • UK TV",
+    "hint_id": "5star.uk",
+    "logo": "https://logo.m3uassets.com/5star.png"
+  },
+  {
+    "order": 16,
+    "name": "5USA",
+    "group": "01 • UK TV",
+    "hint_id": "5usa.uk",
+    "logo": "https://logo.m3uassets.com/5usa.png"
+  },
+  {
+    "order": 17,
+    "name": "5ACTION SD",
+    "group": "01 • UK TV",
+    "hint_id": "5action.uk",
+    "logo": "https://logo.m3uassets.com/5action.png"
+  },
+  {
+    "order": 18,
+    "name": "5SELECT SD",
+    "group": "01 • UK TV",
+    "hint_id": "5select.uk",
+    "logo": "https://logo.m3uassets.com/5select.png"
+  },
+  {
+    "order": 19,
+    "name": "S4C FHD",
+    "group": "01 • UK TV",
+    "hint_id": "s4c.uk",
+    "logo": "https://logo.m3uassets.com/s4c.png"
+  },
+  {
+    "order": 20,
+    "name": "SKY SHOWCASE SD",
+    "group": "01 • UK TV",
+    "hint_id": "skyshowcase.uk",
+    "logo": "https://logo.m3uassets.com/skyshowcase.png"
+  },
+  {
+    "order": 21,
+    "name": "SKY ATLANTIC HD",
+    "group": "01 • UK TV",
+    "hint_id": "skyatlantic.uk",
+    "logo": "https://logo.m3uassets.com/skyatlantic.png"
+  },
+  {
+    "order": 22,
+    "name": "SKY MAX FHD",
+    "group": "01 • UK TV",
+    "hint_id": "skymax.uk",
+    "logo": "https://logo.m3uassets.com/skymax.png"
+  },
+  {
+    "order": 23,
+    "name": "SKY WITNESS HD",
+    "group": "01 • UK TV",
+    "hint_id": "skywitness.uk",
+    "logo": "https://logo.m3uassets.com/skywitness.png"
+  },
+  {
+    "order": 24,
+    "name": "SKY COMEDY HD",
+    "group": "01 • UK TV",
+    "hint_id": "skycomedy.uk",
+    "logo": "https://logo.m3uassets.com/skycomedy.png"
+  },
+  {
+    "order": 25,
+    "name": "SKY CRIME HD",
+    "group": "01 • UK TV",
+    "hint_id": "skycrime.uk",
+    "logo": "https://logo.m3uassets.com/skycrime.png"
+  },
+  {
+    "order": 26,
+    "name": "SKY ARTS FHD",
+    "group": "01 • UK TV",
+    "hint_id": "skyarts.uk",
+    "logo": "https://logo.m3uassets.com/skyarts.png"
+  },
+  {
+    "order": 27,
+    "name": "FHD Sky Documentaries",
+    "group": "01 • UK TV",
+    "hint_id": "skydocumentaries.uk",
+    "logo": "https://logo.m3uassets.com/skydocumentaries.png"
+  },
+  {
+    "order": 28,
+    "name": "FHD Sky Nature",
+    "group": "01 • UK TV",
+    "hint_id": "skynature.uk",
+    "logo": "https://logo.m3uassets.com/skynature.png"
+  },
+  {
+    "order": 29,
+    "name": "FHD SKY HISTORY",
+    "group": "01 • UK TV",
+    "hint_id": "skyhistory.uk",
+    "logo": "https://logo.m3uassets.com/skyhistory.png"
+  },
+  {
+    "order": 30,
+    "name": "DAVE HD",
+    "group": "01 • UK TV",
+    "hint_id": "dave.uk",
+    "logo": "https://logo.m3uassets.com/dave.png"
+  },
+  {
+    "order": 31,
+    "name": "GOLD FHD",
+    "group": "01 • UK TV",
+    "hint_id": "gold.uk",
+    "logo": "https://logo.m3uassets.com/gold.png"
+  },
+  {
+    "order": 32,
+    "name": "ALIBI FHD",
+    "group": "01 • UK TV",
+    "hint_id": "alibi.uk",
+    "logo": "https://logo.m3uassets.com/alibi.png"
+  },
+  {
+    "order": 33,
+    "name": "DRAMA SD",
+    "group": "01 • UK TV",
+    "hint_id": "drama.uk",
+    "logo": "https://logo.m3uassets.com/drama.png"
+  },
+  {
+    "order": 34,
+    "name": "CHALLENGE SD",
+    "group": "01 • UK TV",
+    "hint_id": "challenge.uk",
+    "logo": "https://logo.m3uassets.com/challenge.png"
+  },
+  {
+    "order": 35,
+    "name": "SYFY FHD",
+    "group": "01 • UK TV",
+    "hint_id": "syfy.uk",
+    "logo": "https://logo.m3uassets.com/syfy.png"
+  },
+  {
+    "order": 36,
+    "name": "TLC FHD",
+    "group": "01 • UK TV",
+    "hint_id": "tlc.uk",
+    "logo": "https://logo.m3uassets.com/tlc.png"
+  },
+  {
+    "order": 37,
+    "name": "FHD Discovery",
+    "group": "01 • UK TV",
+    "hint_id": "discovery.uk",
+    "logo": "https://logo.m3uassets.com/discovery.png"
+  },
+  {
+    "order": 38,
+    "name": "Discovery Science",
+    "group": "01 • UK TV",
+    "hint_id": "discoveryscience.uk",
+    "logo": "https://logo.m3uassets.com/discoveryscience.png"
+  },
+  {
+    "order": 39,
+    "name": "Discovery History",
+    "group": "01 • UK TV",
+    "hint_id": "discoveryhistory.uk",
+    "logo": "https://logo.m3uassets.com/discoveryhistory.png"
+  },
+  {
+    "order": 40,
+    "name": "NATIONAL GEOGRAPHIC FHD",
+    "group": "01 • UK TV",
+    "hint_id": "natgeo.uk",
+    "logo": "https://logo.m3uassets.com/natgeo.png"
+  },
+  {
+    "order": 41,
+    "name": "FHD Nat Geo WIld",
+    "group": "01 • UK TV",
+    "hint_id": "natgeowild.uk",
+    "logo": "https://logo.m3uassets.com/natgeowild.png"
+  },
+  {
+    "order": 42,
+    "name": "Animal Planet",
+    "group": "01 • UK TV",
+    "hint_id": "animalplanet.uk",
+    "logo": "https://logo.m3uassets.com/animalplanet.png"
+  },
+  {
+    "order": 43,
+    "name": "SMITHSONIAN CHANNEL FHD",
+    "group": "01 • UK TV",
+    "hint_id": "smithsonian.uk",
+    "logo": "https://logo.m3uassets.com/smithsonian.png"
+  },
+  {
+    "order": 44,
+    "name": "QUEST FHD",
+    "group": "01 • UK TV",
+    "hint_id": "quest.uk",
+    "logo": "https://logo.m3uassets.com/quest.png"
+  },
+  {
+    "order": 45,
+    "name": "QUEST RED SD",
+    "group": "01 • UK TV",
+    "hint_id": "questred.uk",
+    "logo": "https://logo.m3uassets.com/questred.png"
+  },
+  {
+    "order": 46,
+    "name": "REALLY SD",
+    "group": "01 • UK TV",
+    "hint_id": "really.uk",
+    "logo": "https://logo.m3uassets.com/really.png"
+  },
+  {
+    "order": 47,
+    "name": "HGTV SD",
+    "group": "01 • UK TV",
+    "hint_id": "hgtv.uk",
+    "logo": "https://logo.m3uassets.com/hgtv.png"
+  },
+  {
+    "order": 48,
+    "name": "FOOD NETWORK SD",
+    "group": "01 • UK TV",
+    "hint_id": "foodnetwork.uk",
+    "logo": "https://logo.m3uassets.com/foodnetwork.png"
+  },
+  {
+    "order": 49,
+    "name": "CBS REALITY FHD",
+    "group": "01 • UK TV",
+    "hint_id": "cbsreality.uk",
+    "logo": "https://logo.m3uassets.com/cbsreality.png"
+  },
+  {
+    "order": 50,
+    "name": "CBS JUSTICE HD",
+    "group": "01 • UK TV",
+    "hint_id": "cbsjustice.uk",
+    "logo": "https://logo.m3uassets.com/cbsjustice.png"
+  },
+  {
+    "order": 51,
+    "name": "CBS DRAMA SD",
+    "group": "01 • UK TV",
+    "hint_id": "cbsdrama.uk",
+    "logo": "https://logo.m3uassets.com/cbsdrama.png"
+  },
+  {
+    "order": 52,
+    "name": "COURT TV HD",
+    "group": "01 • UK TV",
+    "hint_id": "courttv.uk",
+    "logo": "https://logo.m3uassets.com/courttv.png"
+  },
+  {
+    "order": 53,
+    "name": "PICK SD",
+    "group": "01 • UK TV",
+    "hint_id": "pick.uk",
+    "logo": "https://logo.m3uassets.com/pick.png"
+  },
+  {
+    "order": 54,
+    "name": "LONDON LIVE SD",
+    "group": "01 • UK TV",
+    "hint_id": "londonlive.uk",
+    "logo": "https://logo.m3uassets.com/londonlive.png"
+  },
+  {
+    "order": 55,
+    "name": "QVC HD",
+    "group": "01 • UK TV",
+    "hint_id": "qvc.uk",
+    "logo": "https://logo.m3uassets.com/qvc.png"
+  },
+  {
+    "order": 56,
+    "name": "QVC STYLE FHD",
+    "group": "01 • UK TV",
+    "hint_id": "qvcstyle.uk",
+    "logo": "https://logo.m3uassets.com/qvcstyle.png"
+  },
+  {
+    "order": 57,
+    "name": "TALK TV FHD",
+    "group": "01 • UK TV",
+    "hint_id": "talktv.uk",
+    "logo": "https://logo.m3uassets.com/talktv.png"
+  },
+  {
+    "order": 58,
+    "name": "BBC 1",
+    "group": "01 • UK TV",
+    "hint_id": "bbc1.uk",
+    "logo": "https://logo.m3uassets.com/bbcone.png"
+  },
+  {
+    "order": 59,
+    "name": "BBC 2 Northern Ireland",
+    "group": "01 • UK TV",
+    "hint_id": "bbc2ni.uk",
+    "logo": "https://logo.m3uassets.com/bbctwo.png"
+  },
+  {
+    "order": 60,
+    "name": "BBC 3",
+    "group": "01 • UK TV",
+    "hint_id": "bbc3.uk",
+    "logo": "https://logo.m3uassets.com/bbcthree.png"
+  },
+  {
+    "order": 61,
+    "name": "BBC 4",
+    "group": "01 • UK TV",
+    "hint_id": "bbc4.uk",
+    "logo": "https://logo.m3uassets.com/bbcfour.png"
+  },
+  {
+    "order": 62,
+    "name": "ITV +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "itvplus1.uk",
+    "logo": "https://logo.m3uassets.com/itv.png"
+  },
+  {
+    "order": 63,
+    "name": "ITV2 +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "itv2plus1.uk",
+    "logo": "https://logo.m3uassets.com/itv2.png"
+  },
+  {
+    "order": 64,
+    "name": "ITV3 +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "itv3plus1.uk",
+    "logo": "https://logo.m3uassets.com/itv3.png"
+  },
+  {
+    "order": 65,
+    "name": "ITV4 +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "itv4plus1.uk",
+    "logo": "https://logo.m3uassets.com/itv4.png"
+  },
+  {
+    "order": 66,
+    "name": "CHANNEL 4 +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "channel4plus1.uk",
+    "logo": "https://logo.m3uassets.com/channel4.png"
+  },
+  {
+    "order": 67,
+    "name": "E4 +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "e4plus1.uk",
+    "logo": "https://logo.m3uassets.com/e4.png"
+  },
+  {
+    "order": 68,
+    "name": "CHANNEL 5 +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "channel5plus1.uk",
+    "logo": "https://logo.m3uassets.com/channel5.png"
+  },
+  {
+    "order": 69,
+    "name": "5STAR +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "5starplus1.uk",
+    "logo": "https://logo.m3uassets.com/5star.png"
+  },
+  {
+    "order": 70,
+    "name": "5USA +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "5usaplus1.uk",
+    "logo": "https://logo.m3uassets.com/5usa.png"
+  },
+  {
+    "order": 71,
+    "name": "QUEST +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "questplus1.uk",
+    "logo": "https://logo.m3uassets.com/quest.png"
+  },
+  {
+    "order": 72,
+    "name": "QUEST RED +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "questredplus1.uk",
+    "logo": "https://logo.m3uassets.com/questred.png"
+  },
+  {
+    "order": 73,
+    "name": "FOOD NETWORK +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "foodnetworkplus1.uk",
+    "logo": "https://logo.m3uassets.com/foodnetwork.png"
+  },
+  {
+    "order": 74,
+    "name": "ALIBI +1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "alibiplus1.uk",
+    "logo": "https://logo.m3uassets.com/alibi.png"
+  },
+  {
+    "order": 75,
+    "name": "UK Quest HD (P)",
+    "group": "01 • UK TV",
+    "hint_id": "quest.uk",
+    "logo": "https://logo.m3uassets.com/quest.png"
+  },
+  {
+    "order": 76,
+    "name": "RACING.COM",
+    "group": "01 • UK TV",
+    "hint_id": "racing.com.au",
+    "logo": "https://logo.m3uassets.com/racing.png"
+  },
+  {
+    "order": 77,
+    "name": "William Hill TV1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/williamhill.png"
+  },
+  {
+    "order": 78,
+    "name": "Coral TV 1 SD",
+    "group": "01 • UK TV",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/coral.png"
+  },
+  {
+    "order": 79,
+    "name": "SIS Racing SD",
+    "group": "01 • UK TV",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/sisracing.png"
+  },
+  {
+    "order": 80,
+    "name": "Coral TV 2 SD",
+    "group": "01 • UK TV",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/coral.png"
+  },
+  {
+    "order": 81,
+    "name": "COMEDY CENTRAL FHD",
+    "group": "01 • UK TV",
+    "hint_id": "comedycentral.uk",
+    "logo": "https://logo.m3uassets.com/comedycentral.png"
+  },
+  {
+    "order": 82,
+    "name": "DMAX SD",
+    "group": "01 • UK TV",
+    "hint_id": "dmax.uk",
+    "logo": "https://logo.m3uassets.com/dmax.png"
+  },
+  {
+    "order": 83,
+    "name": "E! FHD",
+    "group": "01 • UK TV",
+    "hint_id": "e.uk",
+    "logo": "https://logo.m3uassets.com/e.png"
+  },
+  {
+    "order": 84,
+    "name": "CBeebies",
+    "group": "02 • Kids",
+    "hint_id": "cbeebies.uk",
+    "logo": "https://logo.m3uassets.com/cbeebies.png"
+  },
+  {
+    "order": 85,
+    "name": "CBBC",
+    "group": "02 • Kids",
+    "hint_id": "cbbc.uk",
+    "logo": "https://logo.m3uassets.com/cbbc.png"
+  },
+  {
+    "order": 86,
+    "name": "FHD Nick Jr",
+    "group": "02 • Kids",
+    "hint_id": "nickjr.uk",
+    "logo": "https://logo.m3uassets.com/nickjr.png"
+  },
+  {
+    "order": 87,
+    "name": "Nickelodeon",
+    "group": "02 • Kids",
+    "hint_id": "nickelodeon.uk",
+    "logo": "https://logo.m3uassets.com/nickelodeon.png"
+  },
+  {
+    "order": 88,
+    "name": "Nicktoons",
+    "group": "02 • Kids",
+    "hint_id": "nicktoons.uk",
+    "logo": "https://logo.m3uassets.com/nicktoons.png"
+  },
+  {
+    "order": 89,
+    "name": "FHD Cartoon Network",
+    "group": "02 • Kids",
+    "hint_id": "cartoonnetwork.uk",
+    "logo": "https://logo.m3uassets.com/cartoonnetwork.png"
+  },
+  {
+    "order": 90,
+    "name": "FHD Boomerang",
+    "group": "02 • Kids",
+    "hint_id": "boomerang.uk",
+    "logo": "https://logo.m3uassets.com/boomerang.png"
+  },
+  {
+    "order": 91,
+    "name": "Pop",
+    "group": "02 • Kids",
+    "hint_id": "pop.uk",
+    "logo": "https://logo.m3uassets.com/pop.png"
+  },
+  {
+    "order": 92,
+    "name": "Baby TV HEVC FHD",
+    "group": "02 • Kids",
+    "hint_id": "babytv.uk",
+    "logo": "https://logo.m3uassets.com/babytv.png"
+  },
+  {
+    "order": 93,
+    "name": "BBC NEWS FHD",
+    "group": "03 • News",
+    "hint_id": "bbcnews.uk",
+    "logo": "https://logo.m3uassets.com/bbcnews.png"
+  },
+  {
+    "order": 94,
+    "name": "SKY NEWS FHD",
+    "group": "03 • News",
+    "hint_id": "skynews.uk",
+    "logo": "https://logo.m3uassets.com/skynews.png"
+  },
+  {
+    "order": 95,
+    "name": "GB NEWS FHD",
+    "group": "03 • News",
+    "hint_id": "gbnews.uk",
+    "logo": "https://logo.m3uassets.com/gbnews.png"
+  },
+  {
+    "order": 96,
+    "name": "CNN FHD",
+    "group": "03 • News",
+    "hint_id": "cnn.us",
+    "logo": "https://logo.m3uassets.com/cnn.png"
+  },
+  {
+    "order": 97,
+    "name": "AL JAZEERA FHD",
+    "group": "03 • News",
+    "hint_id": "aljazeera.us",
+    "logo": "https://logo.m3uassets.com/aljazeera.png"
+  },
+  {
+    "order": 98,
+    "name": "CNBC SD",
+    "group": "03 • News",
+    "hint_id": "cnbc.us",
+    "logo": "https://logo.m3uassets.com/cnbc.png"
+  },
+  {
+    "order": 99,
+    "name": "BLOOMBERG FHD",
+    "group": "03 • News",
+    "hint_id": "bloomberg.us",
+    "logo": "https://logo.m3uassets.com/bloomberg.png"
+  },
+  {
+    "order": 100,
+    "name": "Euronews",
+    "group": "03 • News",
+    "hint_id": "euronews.uk",
+    "logo": "https://logo.m3uassets.com/euronews.png"
+  },
+  {
+    "order": 101,
+    "name": "FOX NEWS HD",
+    "group": "03 • News",
+    "hint_id": "foxnews.us",
+    "logo": "https://logo.m3uassets.com/foxnews.png"
+  },
+  {
+    "order": 102,
+    "name": "BBC PARLIAMENT SD",
+    "group": "03 • News",
+    "hint_id": "bbcparliament.uk",
+    "logo": "https://logo.m3uassets.com/bbcparliament.png"
+  },
+  {
+    "order": 103,
+    "name": "ARISE NEWS SD",
+    "group": "03 • News",
+    "hint_id": "arisenews.uk",
+    "logo": "https://logo.m3uassets.com/arisenews.png"
+  },
+  {
+    "order": 104,
+    "name": "TVC NEWS",
+    "group": "03 • News",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tvcnews.png"
+  },
+  {
+    "order": 105,
+    "name": "SKY CINEMA PREMIERE FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemapremiere.uk",
+    "logo": "https://logo.m3uassets.com/skycinemapremiere.png"
+  },
+  {
+    "order": 106,
+    "name": "SKY CINEMA HITS FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemahits.uk",
+    "logo": "https://logo.m3uassets.com/skycinemahits.png"
+  },
+  {
+    "order": 107,
+    "name": "SKY CINEMA ACTION HD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemaaction.uk",
+    "logo": "https://logo.m3uassets.com/skycinemaaction.png"
+  },
+  {
+    "order": 108,
+    "name": "SKY CINEMA COMEDY FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemacomedy.uk",
+    "logo": "https://logo.m3uassets.com/skycinemacomedy.png"
+  },
+  {
+    "order": 109,
+    "name": "SKY CINEMA THRILLER FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemathriller.uk",
+    "logo": "https://logo.m3uassets.com/skycinemathriller.png"
+  },
+  {
+    "order": 110,
+    "name": "SKY CINEMA DRAMA FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemadrama.uk",
+    "logo": "https://logo.m3uassets.com/skycinemadrama.png"
+  },
+  {
+    "order": 111,
+    "name": "SKY CINEMA SCI FI FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemascifi.uk",
+    "logo": "https://logo.m3uassets.com/skycinemascifi.png"
+  },
+  {
+    "order": 112,
+    "name": "SKY CINEMA FAMILY FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemafamily.uk",
+    "logo": "https://logo.m3uassets.com/skycinemafamily.png"
+  },
+  {
+    "order": 113,
+    "name": "SKY CINEMA ANIMATION FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemaanimation.uk",
+    "logo": "https://logo.m3uassets.com/skycinemaanimation.png"
+  },
+  {
+    "order": 114,
+    "name": "SKY CINEMA GREATS FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemagreats.uk",
+    "logo": "https://logo.m3uassets.com/skycinemagreats.png"
+  },
+  {
+    "order": 115,
+    "name": "SKY CINEMA SELECT FHD",
+    "group": "04 • Movies",
+    "hint_id": "skycinemaselect.uk",
+    "logo": "https://logo.m3uassets.com/skycinemaselect.png"
+  },
+  {
+    "order": 116,
+    "name": "FILM4 HD",
+    "group": "04 • Movies",
+    "hint_id": "film4.uk",
+    "logo": "https://logo.m3uassets.com/film4.png"
+  },
+  {
+    "order": 117,
+    "name": "TCM MOVIES SD",
+    "group": "04 • Movies",
+    "hint_id": "tcm.uk",
+    "logo": "https://logo.m3uassets.com/tcm.png"
+  },
+  {
+    "order": 118,
+    "name": "GREAT! ACTION SD",
+    "group": "04 • Movies",
+    "hint_id": "greataction.uk",
+    "logo": "https://logo.m3uassets.com/greataction.png"
+  },
+  {
+    "order": 119,
+    "name": "GREAT! CLASSIC SD",
+    "group": "04 • Movies",
+    "hint_id": "greatclassic.uk",
+    "logo": "https://logo.m3uassets.com/greatclassic.png"
+  },
+  {
+    "order": 120,
+    "name": "GREAT! TV SD",
+    "group": "04 • Movies",
+    "hint_id": "greattv.uk",
+    "logo": "https://logo.m3uassets.com/greattv.png"
+  },
+  {
+    "order": 121,
+    "name": "SONY TV FHD",
+    "group": "04 • Movies",
+    "hint_id": "sonytv.uk",
+    "logo": "https://logo.m3uassets.com/sonytv.png"
+  },
+  {
+    "order": 122,
+    "name": "5 Action SD",
+    "group": "04 • Movies",
+    "hint_id": "5action.uk",
+    "logo": "https://logo.m3uassets.com/5action.png"
+  },
+  {
+    "order": 123,
+    "name": "5 Star HD",
+    "group": "04 • Movies",
+    "hint_id": "5star.uk",
+    "logo": "https://logo.m3uassets.com/5star.png"
+  },
+  {
+    "order": 124,
+    "name": "5 USA SD",
+    "group": "04 • Movies",
+    "hint_id": "5usa.uk",
+    "logo": "https://logo.m3uassets.com/5usa.png"
+  },
+  {
+    "order": 125,
+    "name": "SKY SPORTS MAIN EVENT FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsmainevent.uk",
+    "logo": "https://logo.m3uassets.com/skysportsmainevent.png"
+  },
+  {
+    "order": 126,
+    "name": "SKY SPORTS MAIN EVENT HD • Backup",
+    "group": "05 • Sport",
+    "hint_id": "skysportsmainevent.uk",
+    "logo": "https://logo.m3uassets.com/skysportsmainevent.png"
+  },
+  {
+    "order": 127,
+    "name": "SKY SPORTS PREMIER LEAGUE FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportspremiereleague.uk",
+    "logo": "https://logo.m3uassets.com/skysportspremierleague.png"
+  },
+  {
+    "order": 128,
+    "name": "SKY SPORTS PREMIER LEAGUE HD • Backup",
+    "group": "05 • Sport",
+    "hint_id": "skysportspremiereleague.uk",
+    "logo": "https://logo.m3uassets.com/skysportspremierleague.png"
+  },
+  {
+    "order": 129,
+    "name": "SKY SPORTS FOOTBALL FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsfootball.uk",
+    "logo": "https://logo.m3uassets.com/skysportsfootball.png"
+  },
+  {
+    "order": 130,
+    "name": "SKY SPORTS FOOTBALL HD • Backup",
+    "group": "05 • Sport",
+    "hint_id": "skysportsfootball.uk",
+    "logo": "https://logo.m3uassets.com/skysportsfootball.png"
+  },
+  {
+    "order": 131,
+    "name": "Sky Sports+ FHD",
+    "group": "05 • Sport",
+    "hint_id": "SkySportsArena.uk",
+    "logo": "https://logo.m3uassets.com/skysportsplus.png"
+  },
+  {
+    "order": 132,
+    "name": "SKY SPORTS F1 UHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsf1.uk",
+    "logo": "https://logo.m3uassets.com/skysportsf1.png"
+  },
+  {
+    "order": 133,
+    "name": "SKY SPORTS F1 FHD • Backup",
+    "group": "05 • Sport",
+    "hint_id": "skysportsf1.uk",
+    "logo": "https://logo.m3uassets.com/skysportsf1.png"
+  },
+  {
+    "order": 134,
+    "name": "SKY SPORTS GOLF FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsgolf.uk",
+    "logo": "https://logo.m3uassets.com/skysportsgolf.png"
+  },
+  {
+    "order": 135,
+    "name": "SKY SPORTS CRICKET FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportscricket.uk",
+    "logo": "https://logo.m3uassets.com/skysportscricket.png"
+  },
+  {
+    "order": 136,
+    "name": "SKY SPORTS TENNIS HD",
+    "group": "05 • Sport",
+    "hint_id": "skysportstennis.uk",
+    "logo": "https://logo.m3uassets.com/skysportstennis.png"
+  },
+  {
+    "order": 137,
+    "name": "SKY SPORTS NFL FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsnfl.uk",
+    "logo": "https://logo.m3uassets.com/skysportsnfl.png"
+  },
+  {
+    "order": 138,
+    "name": "Sky Sports Arena",
+    "group": "05 • Sport",
+    "hint_id": "SkySportsArena.uk",
+    "logo": "https://logo.m3uassets.com/skysportsarena.png"
+  },
+  {
+    "order": 139,
+    "name": "Sky Sports Action",
+    "group": "05 • Sport",
+    "hint_id": "skysportsaction.uk",
+    "logo": "https://logo.m3uassets.com/skysportsaction.png"
+  },
+  {
+    "order": 140,
+    "name": "SKY SPORTS MIX FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsmix.uk",
+    "logo": "https://logo.m3uassets.com/skysportsmix.png"
+  },
+  {
+    "order": 141,
+    "name": "SKY SPORTS RACING FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsracing.uk",
+    "logo": "https://logo.m3uassets.com/skysportsracing.png"
+  },
+  {
+    "order": 142,
+    "name": "SKY SPORTS NEWS FHD",
+    "group": "05 • Sport",
+    "hint_id": "skysportsnews.uk",
+    "logo": "https://logo.m3uassets.com/skysportsnews.png"
+  },
+  {
+    "order": 143,
+    "name": "SKY SPORTS BOX OFFICE FHD",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/skysportsboxoffice.png"
+  },
+  {
+    "order": 144,
+    "name": "Rangers TV",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/rangerstv.png"
+  },
+  {
+    "order": 145,
+    "name": "TNT Sports Ultimate 4K",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tntsportsultimate.png"
+  },
+  {
+    "order": 146,
+    "name": "TNT SPORT 1 50 FPS FHD",
+    "group": "05 • Sport",
+    "hint_id": "tntsports1.uk",
+    "logo": "https://logo.m3uassets.com/tntsports1.png"
+  },
+  {
+    "order": 147,
+    "name": "TNT Sports 1",
+    "group": "05 • Sport",
+    "hint_id": "tntsports1.uk",
+    "logo": "https://logo.m3uassets.com/tntsports1.png"
+  },
+  {
+    "order": 148,
+    "name": "TNT SPORT 1 FHD • Backup",
+    "group": "05 • Sport",
+    "hint_id": "tntsports1.uk",
+    "logo": "https://logo.m3uassets.com/tntsports1.png"
+  },
+  {
+    "order": 149,
+    "name": "UK TNT Sports 1 (FHD) (D)",
+    "group": "05 • Sport",
+    "hint_id": "tntsports1.uk",
+    "logo": "https://logo.m3uassets.com/tntsports1.png"
+  },
+  {
+    "order": 150,
+    "name": "UK TNT Sports 1 HD (D) • Backup",
+    "group": "05 • Sport",
+    "hint_id": "tntsports1.uk",
+    "logo": "https://logo.m3uassets.com/tntsports1.png"
+  },
+  {
+    "order": 151,
+    "name": "TNT SPORT 2 50 FPS FHD",
+    "group": "05 • Sport",
+    "hint_id": "tntsports2.uk",
+    "logo": "https://logo.m3uassets.com/tntsports2.png"
+  },
+  {
+    "order": 152,
+    "name": "TNT Sports 2",
+    "group": "05 • Sport",
+    "hint_id": "btsport2.uk",
+    "logo": "https://logo.m3uassets.com/tntsports2.png"
+  },
+  {
+    "order": 153,
+    "name": "TNT SPORT 2 FHD • Backup",
+    "group": "05 • Sport",
+    "hint_id": "tntsports2.uk",
+    "logo": "https://logo.m3uassets.com/tntsports2.png"
+  },
+  {
+    "order": 154,
+    "name": "UK TNT Sports 2 (FHD) (D)",
+    "group": "05 • Sport",
+    "hint_id": "tntsports2.uk",
+    "logo": "https://logo.m3uassets.com/tntsports2.png"
+  },
+  {
+    "order": 155,
+    "name": "UK TNT Sports 2 HD (D) • Backup",
+    "group": "05 • Sport",
+    "hint_id": "tntsports2.uk",
+    "logo": "https://logo.m3uassets.com/tntsports2.png"
+  },
+  {
+    "order": 156,
+    "name": "TNT SPORT 3 50 FPS FHD",
+    "group": "05 • Sport",
+    "hint_id": "tntsports3.uk",
+    "logo": "https://logo.m3uassets.com/tntsports3.png"
+  },
+  {
+    "order": 157,
+    "name": "TNT Sports 3",
+    "group": "05 • Sport",
+    "hint_id": "tntsports3.uk",
+    "logo": "https://logo.m3uassets.com/tntsports3.png"
+  },
+  {
+    "order": 158,
+    "name": "UK TNT Sports 3 (FHD) (D)",
+    "group": "05 • Sport",
+    "hint_id": "tntsports3.uk",
+    "logo": "https://logo.m3uassets.com/tntsports3.png"
+  },
+  {
+    "order": 159,
+    "name": "TNT SPORT 4 50 FPS FHD",
+    "group": "05 • Sport",
+    "hint_id": "tntsports4.uk",
+    "logo": "https://logo.m3uassets.com/tntsports4.png"
+  },
+  {
+    "order": 160,
+    "name": "TNT Sports 4",
+    "group": "05 • Sport",
+    "hint_id": "tntsports4.uk",
+    "logo": "https://logo.m3uassets.com/tntsports4.png"
+  },
+  {
+    "order": 161,
+    "name": "UK TNT Sports 4 (FHD) (D)",
+    "group": "05 • Sport",
+    "hint_id": "tntsports4.uk",
+    "logo": "https://logo.m3uassets.com/tntsports4.png"
+  },
+  {
+    "order": 162,
+    "name": "TNT SPORT 5 HD",
+    "group": "05 • Sport",
+    "hint_id": "tntsports5.uk",
+    "logo": "https://logo.m3uassets.com/tntsports5.png"
+  },
+  {
+    "order": 163,
+    "name": "TNT Sports 5",
+    "group": "05 • Sport",
+    "hint_id": "tntsports5.uk",
+    "logo": "https://logo.m3uassets.com/tntsports5.png"
+  },
+  {
+    "order": 164,
+    "name": "TNT SPORT 6 HD",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tntsports6.png"
+  },
+  {
+    "order": 165,
+    "name": "TNT SPORT 7 HD",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tntsports7.png"
+  },
+  {
+    "order": 166,
+    "name": "TNT SPORT 8 HD",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tntsports8.png"
+  },
+  {
+    "order": 167,
+    "name": "TNT SPORT 9 HD",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tntsports9.png"
+  },
+  {
+    "order": 168,
+    "name": "TNT SPORT 10 HD",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tntsports10.png"
+  },
+  {
+    "order": 169,
+    "name": "PREMIER SPORTS 1 FHD",
+    "group": "05 • Sport",
+    "hint_id": "premiersports1.uk",
+    "logo": "https://logo.m3uassets.com/premiersports1.png"
+  },
+  {
+    "order": 170,
+    "name": "PREMIER SPORTS 1 HD • Backup",
+    "group": "05 • Sport",
+    "hint_id": "premiersports1.uk",
+    "logo": "https://logo.m3uassets.com/premiersports1.png"
+  },
+  {
+    "order": 171,
+    "name": "Premier Sport 1",
+    "group": "05 • Sport",
+    "hint_id": "4seven.uk",
+    "logo": "https://logo.m3uassets.com/premiersports1.png"
+  },
+  {
+    "order": 172,
+    "name": "PREMIER SPORTS 2 FHD",
+    "group": "05 • Sport",
+    "hint_id": "premiersports2.uk",
+    "logo": "https://logo.m3uassets.com/premiersports2.png"
+  },
+  {
+    "order": 173,
+    "name": "EUROSPORT 1 FHD",
+    "group": "05 • Sport",
+    "hint_id": "eurosport1.uk",
+    "logo": "https://logo.m3uassets.com/eurosport1.png"
+  },
+  {
+    "order": 174,
+    "name": "EUROSPORT 2 FHD",
+    "group": "05 • Sport",
+    "hint_id": "eurosport2.uk",
+    "logo": "https://logo.m3uassets.com/eurosport2.png"
+  },
+  {
+    "order": 175,
+    "name": "Eurosport",
+    "group": "05 • Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/eurosport.png"
+  },
+  {
+    "order": 176,
+    "name": "LA LIGA TV FHD",
+    "group": "05 • Sport",
+    "hint_id": "laligatv.uk",
+    "logo": "https://logo.m3uassets.com/laligatv.png"
+  },
+  {
+    "order": 177,
+    "name": "La Liga FHD",
+    "group": "05 • Sport",
+    "hint_id": "laligatv.uk",
+    "logo": "https://logo.m3uassets.com/laligatv.png"
+  },
+  {
+    "order": 178,
+    "name": "RACING UK HD",
+    "group": "05 • Sport",
+    "hint_id": "racingtv.uk",
+    "logo": "https://logo.m3uassets.com/racinguk.png"
+  },
+  {
+    "order": 179,
+    "name": "MUTV FHD",
+    "group": "05 • Sport",
+    "hint_id": "mutv.uk",
+    "logo": "https://logo.m3uassets.com/mutv.png"
+  },
+  {
+    "order": 180,
+    "name": "LFC FHD",
+    "group": "05 • Sport",
+    "hint_id": "lfctv.uk",
+    "logo": "https://logo.m3uassets.com/lfctv.png"
+  },
+  {
+    "order": 181,
+    "name": "GINX E SPORTS SD",
+    "group": "05 • Sport",
+    "hint_id": "ginx.uk",
+    "logo": "https://logo.m3uassets.com/ginx.png"
+  },
+  {
+    "order": 182,
+    "name": "F1 TV",
+    "group": "06 • F1 Extras",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/f1tv.png"
+  },
+  {
+    "order": 183,
+    "name": "F1 Tracker",
+    "group": "06 • F1 Extras",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/f1.png"
+  },
+  {
+    "order": 184,
+    "name": "F1 Data",
+    "group": "06 • F1 Extras",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/f1.png"
+  },
+  {
+    "order": 185,
+    "name": "ESPN",
+    "group": "07 • US Sport",
+    "hint_id": "espn.us",
+    "logo": "https://logo.m3uassets.com/espn.png"
+  },
+  {
+    "order": 186,
+    "name": "ESPN2",
+    "group": "07 • US Sport",
+    "hint_id": "espn2.us",
+    "logo": "https://logo.m3uassets.com/espn2.png"
+  },
+  {
+    "order": 187,
+    "name": "Fox Sports 1",
+    "group": "07 • US Sport",
+    "hint_id": "foxsports1.us",
+    "logo": "https://logo.m3uassets.com/foxsports1.png"
+  },
+  {
+    "order": 188,
+    "name": "Fox Sports 2",
+    "group": "07 • US Sport",
+    "hint_id": "foxsports2.us",
+    "logo": "https://logo.m3uassets.com/foxsports2.png"
+  },
+  {
+    "order": 189,
+    "name": "NFL Network",
+    "group": "07 • US Sport",
+    "hint_id": "nflnetwork.us",
+    "logo": "https://logo.m3uassets.com/nflnetwork.png"
+  },
+  {
+    "order": 190,
+    "name": "NBA TV",
+    "group": "07 • US Sport",
+    "hint_id": "nbatv.us",
+    "logo": "https://logo.m3uassets.com/nbatv.png"
+  },
+  {
+    "order": 191,
+    "name": "MLB Network",
+    "group": "07 • US Sport",
+    "hint_id": "mlbnetwork.us",
+    "logo": "https://logo.m3uassets.com/mlbnetwork.png"
+  },
+  {
+    "order": 192,
+    "name": "NHL Network",
+    "group": "07 • US Sport",
+    "hint_id": "nhlnetwork.us",
+    "logo": "https://logo.m3uassets.com/nhlnetwork.png"
+  },
+  {
+    "order": 193,
+    "name": "Golf Channel",
+    "group": "07 • US Sport",
+    "hint_id": "golfchannel.us",
+    "logo": "https://logo.m3uassets.com/golfchannel.png"
+  },
+  {
+    "order": 194,
+    "name": "CBS Sports Network",
+    "group": "07 • US Sport",
+    "hint_id": "cbssportsnetwork.us",
+    "logo": "https://logo.m3uassets.com/cbssportsnetwork.png"
+  },
+  {
+    "order": 195,
+    "name": "SEC Network",
+    "group": "07 • US Sport",
+    "hint_id": "secnetwork.us",
+    "logo": "https://logo.m3uassets.com/secnetwork.png"
+  },
+  {
+    "order": 196,
+    "name": "Big Ten Network",
+    "group": "07 • US Sport",
+    "hint_id": "bigtennetwork.us",
+    "logo": "https://logo.m3uassets.com/bigtennetwork.png"
+  },
+  {
+    "order": 197,
+    "name": "TENNIS CHANNEL",
+    "group": "07 • US Sport",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/tennischannel.png"
+  },
+  {
+    "order": 198,
+    "name": "The Block • 24/7",
+    "group": "08 • The Block",
+    "hint_id": "",
+    "logo": ""
+  },
+  {
+    "order": 199,
+    "name": "Channel 9 Australia • Sydney",
+    "group": "08 • The Block",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/channel9sydney.png"
+  },
+  {
+    "order": 200,
+    "name": "Channel 9 Australia • 9Now Backup",
+    "group": "08 • The Block",
+    "hint_id": "",
+    "logo": "https://logo.m3uassets.com/channel9.png"
+  }
+]
