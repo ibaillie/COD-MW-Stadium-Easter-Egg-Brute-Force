@@ -21,6 +21,15 @@ NUMBER_WORDS = {
     "nine": "9", "ten": "10"
 }
 
+SPECIAL_ALIASES = {
+    "Channel 9 Australia • Sydney": [
+        "Channel Nine Sydney", "Channel 9 Sydney", "Nine Sydney", "9 Sydney", "9HD Sydney"
+    ],
+    "Channel 9 Australia • 9Now Backup": [
+        "Channel Nine Sydney", "Channel 9 Sydney", "Nine Sydney", "9 Sydney", "9HD Sydney"
+    ],
+}
+
 def canonical(text):
     s = (text or "").lower().strip()
     s = s.replace("&", " and ")
@@ -108,35 +117,41 @@ def read_source_channels(path):
     return out
 
 def choose_match(wanted, source):
-    desired = canonical(wanted["name"])
+    desired_names = [wanted["name"]] + SPECIAL_ALIASES.get(wanted["name"], [])
+    desired_forms = [canonical(x) for x in desired_names]
     country = wanted_country(wanted["group"])
     hint = (wanted.get("hint_id") or "").strip()
 
     if hint in source:
-        best_hint = max(similarity(desired, canonical(n)) for n in source[hint]["names"])
+        best_hint = max(
+            similarity(desired, canonical(n))
+            for desired in desired_forms
+            for n in source[hint]["names"]
+        )
         if best_hint >= 0.76:
             return hint, best_hint + 0.05, "validated-hint"
 
     scored = []
-    desired_tokens = set(desired.split())
     for cid, info in source.items():
         ctry = source_country(cid)
         best = 0.0
-        for display in info["names"]:
-            best = max(best, similarity(desired, canonical(display)))
-        id_stem = cid.rsplit(".", 1)[0]
-        best = max(best, similarity(desired, canonical(id_stem)) * 0.94)
+        for desired in desired_forms:
+            desired_tokens = set(desired.split())
+            for display in info["names"]:
+                best = max(best, similarity(desired, canonical(display)))
+            id_stem = cid.rsplit(".", 1)[0]
+            best = max(best, similarity(desired, canonical(id_stem)) * 0.94)
+
+            names_canon = [canonical(n) for n in info["names"]]
+            overlap = any(desired_tokens & set(n.split()) for n in names_canon)
+            if not overlap and compact(desired) not in {compact(n) for n in names_canon}:
+                best -= 0.12
 
         if country:
             if ctry == country:
                 best += 0.045
             elif ctry in {"uk", "us", "au", "ca", "ie", "nz"}:
                 best -= 0.10
-
-        names_canon = [canonical(n) for n in info["names"]]
-        overlap = any(desired_tokens & set(n.split()) for n in names_canon)
-        if not overlap and compact(desired) not in {compact(n) for n in names_canon}:
-            best -= 0.12
 
         scored.append((best, cid))
 
