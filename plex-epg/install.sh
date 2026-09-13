@@ -4,7 +4,8 @@ set -euo pipefail
 BASE="$HOME/threadfin/plex-epg"
 RAW_BASE="https://raw.githubusercontent.com/ibaillie/COD-MW-Stadium-Easter-Egg-Brute-Force/plex-epg-tools/plex-epg"
 BIND_IP="10.142.7.1"
-PORT="34401"
+EPG_PORT="34401"
+THREADFIN_PORT="34400"
 
 mkdir -p "$BASE" "$HOME/.config/systemd/user"
 
@@ -23,7 +24,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 -m http.server $PORT --bind $BIND_IP --directory $BASE
+ExecStart=/usr/bin/python3 -m http.server $EPG_PORT --bind $BIND_IP --directory $BASE
 Restart=on-failure
 RestartSec=5
 
@@ -54,14 +55,37 @@ RandomizedDelaySec=10m
 WantedBy=timers.target
 EOF
 
+cat > "$HOME/.config/systemd/user/threadfin.service" <<EOF
+[Unit]
+Description=Threadfin IPTV proxy
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=$HOME/threadfin/bin/threadfin -bind $BIND_IP -port $THREADFIN_PORT -config $HOME/threadfin/conf
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
+EOF
+
+# Move Threadfin out of the foreground Termius session and into systemd.
+pkill -f "$HOME/threadfin/bin/threadfin" 2>/dev/null || true
+sleep 1
+
 systemctl --user daemon-reload
-systemctl --user enable --now plex-epg-http.service plex-epg-update.timer
+systemctl --user enable --now threadfin.service plex-epg-http.service plex-epg-update.timer
 
 echo
 echo "Installed successfully."
-echo "Plex XMLTV URL: http://$BIND_IP:$PORT/guide.xml"
+echo "Threadfin:         http://$BIND_IP:$THREADFIN_PORT/web/"
+echo "Plex XMLTV URL:    http://$BIND_IP:$EPG_PORT/guide.xml"
 echo "Match report:      $BASE/matches.json"
 echo "Guide file:        $BASE/guide.xml"
 echo
-echo "Service status:"
+echo "Threadfin status:"
+systemctl --user --no-pager --full status threadfin.service | sed -n '1,8p' || true
+echo
+echo "EPG server status:"
 systemctl --user --no-pager --full status plex-epg-http.service | sed -n '1,8p' || true
