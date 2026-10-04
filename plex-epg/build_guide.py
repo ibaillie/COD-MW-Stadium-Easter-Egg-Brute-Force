@@ -1,5 +1,8 @@
+[Reading 360 lines from start (total: 360 lines, 0 remaining)]
+
 #!/usr/bin/env python3
 import difflib
+import hashlib
 import json
 import os
 import re
@@ -167,6 +170,104 @@ def choose_match(wanted, source):
         return best_id, best_score, "name-fuzzy"
     return None
 
+def _clean_text(text):
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def load_block_episodes():
+    """Fetch real The Block season/episode metadata from TVMaze."""
+    url = "https://api.tvmaze.com/singlesearch/shows?q=The%20Block&embed=episodes"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 Plex-EPG-Builder"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.load(r)
+        episodes = []
+        for e in data.get("_embedded", {}).get("episodes", []):
+            season, number = e.get("season"), e.get("number")
+            if not season or not number:
+                continue
+            summary = _clean_text(e.get("summary") or "")
+            episodes.append({
+                "season": int(season),
+                "number": int(number),
+                "name": _clean_text(e.get("name") or ""),
+                "airdate": e.get("airdate") or "",
+                "summary": summary,
+                "summary_key": canonical(summary),
+            })
+        print(f"Loaded {len(episodes)} The Block episodes from TVMaze.")
+        return episodes
+    except Exception as exc:
+        print(f"Warning: could not load The Block episode metadata: {exc}")
+        return []
+
+
+def match_block_episode(elem, episodes):
+    desc = next((c.text or "" for c in elem if c.tag.rsplit("}", 1)[-1] == "desc"), "").strip()
+    desc_key = canonical(_clean_text(desc))
+    if desc_key:
+        exact = [e for e in episodes if e["summary_key"] and e["summary_key"] == desc_key]
+        if len(exact) == 1:
+            return exact[0]
+
+        scored = sorted(
+            ((similarity(desc_key, e["summary_key"]), e) for e in episodes if e["summary_key"]),
+            key=lambda x: x[0], reverse=True
+        )
+        if scored and scored[0][0] >= 0.94:
+            return scored[0][1]
+
+    # Fallback only for Sydney prime-time broadcasts, not daytime repeats.
+    start = elem.attrib.get("start", "")
+    try:
+        from datetime import datetime, timezone
+        from zoneinfo import ZoneInfo
+        dt = datetime.strptime(start[:19], "%Y%m%d%H%M%S %z").astimezone(ZoneInfo("Australia/Sydney"))
+        if 18 <= dt.hour <= 22:
+            candidates = [e for e in episodes if e["airdate"] == dt.date().isoformat()]
+            if len(candidates) == 1:
+                return candidates[0]
+    except Exception:
+        pass
+    return None
+
+
+def enrich_programme(elem, source_id, block_episodes):
+    """Add real episodic metadata Plex needs for The Block series recording."""
+    if source_id != "channel9sydney.au":
+        return
+    title = next((c.text or "" for c in elem if c.tag.rsplit("}", 1)[-1] == "title"), "").strip()
+    if title.casefold() != "the block":
+        return
+
+    episode = match_block_episode(elem, block_episodes)
+    tags = [c.tag.rsplit("}", 1)[-1] for c in elem]
+
+    if episode:
+        for child in list(elem):
+            if child.tag.rsplit("}", 1)[-1] in {"episode-num", "sub-title"}:
+                elem.remove(child)
+
+        subtitle = ET.SubElement(elem, "sub-title")
+        subtitle.text = episode["name"]
+        onscreen = ET.SubElement(elem, "episode-num", {"system": "onscreen"})
+        onscreen.text = f"S{episode['season']:02d}E{episode['number']:02d}"
+        xmltv = ET.SubElement(elem, "episode-num", {"system": "xmltv_ns"})
+        xmltv.text = f"{episode['season'] - 1}.{episode['number'] - 1}."
+    elif "episode-num" not in tags:
+        # Fallback if TVMaze is temporarily unavailable: still make it episodic,
+        # but avoid pretending a synthetic value is a real season/episode number.
+        desc = next((c.text or "" for c in elem if c.tag.rsplit("}", 1)[-1] == "desc"), "").strip()
+        key = re.sub(r"\s+", " ", desc).strip().casefold() or elem.attrib.get("start", "")[:8]
+        digest = hashlib.sha1(key.encode("utf-8")).hexdigest()[:12].upper()
+        ep = ET.SubElement(elem, "episode-num", {"system": "onscreen"})
+        ep.text = f"ID{(int(digest, 16) % 900000) + 100000:06d}"
+
+    if "category" not in tags:
+        cat = ET.SubElement(elem, "category")
+        cat.text = "Series"
+
 def main():
     with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
         wanted = json.load(f)
@@ -180,6 +281,7 @@ def main():
         print("Reading EPG channel list...")
         source = read_source_channels(source_path)
         print(f"Source has {len(source):,} channels.")
+        block_episodes = load_block_episodes()
 
         matches = []
         source_to_targets = defaultdict(list)
@@ -226,6 +328,7 @@ def main():
                     src_id = elem.attrib.get("channel", "")
                     targets = source_to_targets.get(src_id)
                     if targets:
+                        enrich_programme(elem, src_id, block_episodes)
                         original = src_id
                         for tid in targets:
                             elem.attrib["channel"] = tid
@@ -257,3 +360,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+[executed on device: app01 (f788a237-cd27-4d86-a7a7-990b55244036)]
